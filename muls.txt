@@ -1,0 +1,10 @@
+private long long tinhTich(int n) {
+    long long tich = 1; 
+    for (int i = 0; i < n; i++) {
+        int number;
+        std::cout << "Nhap so thu " << (i + 1) << ": ";
+        std::cin >> number;
+        tich *= number;
+    }
+    return tich;
+}
