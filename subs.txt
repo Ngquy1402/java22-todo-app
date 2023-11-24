@@ -1,0 +1,12 @@
+int tinhHieu(int n) {
+    int hieu = 0;
+
+    for (int i = 0; i < n; i++) {
+        int number;
+        std::cout << "Nhap so thu " << (i + 1) << ": ";
+        std::cin >> number;
+        hieu -= number; 
+    }
+
+    return hieu;
+}
